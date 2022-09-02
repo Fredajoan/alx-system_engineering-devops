@@ -1,2 +1,1 @@
-#!/bin/bash
-chown -h vincent stafff
+sudo chown Vincent staff -hello
