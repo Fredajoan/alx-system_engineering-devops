@@ -1,8 +1,6 @@
-#!/usr/bin/pup
-
-# a script that kills a process named killmenow
+# kill process killmenow
 
 exec { 'pkill':
+  command  => 'pkill killmenow',
   provider => 'shell',
-  command  => 'pkill -f killmenow',
 }

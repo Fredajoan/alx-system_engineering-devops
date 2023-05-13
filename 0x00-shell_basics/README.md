@@ -1,1 +1,1 @@
-script that changes the working directory to the user’s home directory.
+Thisscripte pwd print the current working directory
