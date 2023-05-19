@@ -3,7 +3,7 @@
 #     listen 80;
 #     listen [::]:80;
 #
-#     server_name 3.238.176.253;
+#     server_name 100.25.145.225;
 #
 #     location / {
 #         proxy_set_header X-Served-By 9401-web-01;
@@ -19,7 +19,7 @@ server {
     listen      [::]:80;
 
     # Use IP of server as domain name
-    server_name 3.238.176.253;
+    server_name 100.25.145.225;
 
     # Customize HTTP response header
     add_header  X-Served-By 9401-web-01;
